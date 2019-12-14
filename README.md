@@ -7,7 +7,7 @@ Build order:
 - Get user input
 - PostgreSQL database model
 - Store ther user dat ainto the database
-- Emailing the database values back to the user
-- Sending statistcs to the user
+- Email the database values back to the user
+- Send statistcs to the user
 - Deploy the web application to a live server
-- Implementing downloading and uploading into the web app
+- Implement downloading and uploading into the web app
