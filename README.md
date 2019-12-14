@@ -1,4 +1,4 @@
-# PostgreSQL_database_web_app_with_flask
+# PostgreSQL database web app with flask
 Data Collection Web App, with PostGreSQL and Flask  
 
 Build order: 
