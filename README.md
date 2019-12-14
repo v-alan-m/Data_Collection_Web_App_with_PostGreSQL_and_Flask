@@ -1,2 +1,2 @@
-# Data_Collection_Web_App_with_PostGreSQL_and_Flask
+# PostgreSQL_database_web_app_with_flask
 Data Collection Web App, with PostGreSQL and Flask
