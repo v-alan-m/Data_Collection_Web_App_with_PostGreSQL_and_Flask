@@ -10,4 +10,6 @@ Build order:
 - Email the database values back to the user
 - Send statistcs to the user
 - Deploy the web application to a live server
-- Implement downloading and uploading into the web app
+- Implement downloading and uploading into the web app  
+
+Coming soon Q2 2020
