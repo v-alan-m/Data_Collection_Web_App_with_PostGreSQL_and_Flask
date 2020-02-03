@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from send_email import send_email
 from sqlalchemy.sql import func
 
@@ -16,6 +16,12 @@ class Data(db.Model):
     def __init__(self, email_, height_):
         self.email_=email_
         self.height_=height_
+
+'''
+To create the table in Postgres go to the terminal and type in:
+from app import db
+db.create_all()
+'''
 
 @app.route("/")
 def index():
@@ -37,7 +43,7 @@ def success():
             send_email(email, height, average_height, count)
             print(average_height)
             return render_template("success.html")
-    return render_template('index.html', text="Seems like we got something from that email once!")
+    return render_template('index.html', text="Seems like we got something from that email already, <br> Please enter a new email address")
 
 if __name__ == '__main__':
     app.debug=True
