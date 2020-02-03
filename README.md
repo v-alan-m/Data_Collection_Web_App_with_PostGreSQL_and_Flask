@@ -1,5 +1,5 @@
 # PostgreSQL database web app with flask
-Data Collection Web App, with PostGreSQL and Flask  
+Data Collection Web App using PostGreSQL and Flask  
 
 ## Create a python virtual environment:
 python -m venv virtual
@@ -12,7 +12,7 @@ python -m venv virtual
 - CSS
 - Get user input
 - PostgreSQL database model
-- Store ther user dat ainto the database
+- Store ther user data into the database
 - Email the database values back to the user
 - Send statistcs to the user
 - Deploy the web application to a live server
