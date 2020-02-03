@@ -1,7 +1,13 @@
 # PostgreSQL database web app with flask
 Data Collection Web App, with PostGreSQL and Flask  
 
-Build order: 
+## Create a python virtual environment:
+python -m venv virtual
+
+## Dependancies:
+ 
+
+## Objectives:
 - HTML
 - CSS
 - Get user input
@@ -12,4 +18,4 @@ Build order:
 - Deploy the web application to a live server
 - Implement downloading and uploading into the web app  
 
-Coming soon Q2 2020
+Lessons were learnt from: https://www.udemy.com/course/the-python-mega-cours
